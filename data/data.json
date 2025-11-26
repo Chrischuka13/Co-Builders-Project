@@ -1,0 +1,46 @@
+{
+  "appointments": [
+    {
+      "id": "#11232",
+      "date": "Oct 29, 2025",
+      "service": "Move in Cleaning",
+      "status": "Done",
+      "amount": "₦400.00"
+    },
+    {
+      "id": "#11233",
+      "date": "Oct 30, 2025",
+      "service": "Deep Cleaning",
+      "status": "Done",
+      "amount": "₦400.00"
+    },
+    {
+      "id": "#11234",
+      "date": "Oct 31, 2025",
+      "service": "Standard Cleaning",
+      "status": "Cancelled",
+      "amount": "₦400.00"
+    },
+    {
+      "id": "#11235",
+      "date": "Oct 31, 2025",
+      "service": "Move in Cleaning",
+      "status": "Cancelled",
+      "amount": "₦400.00"
+    },
+    {
+      "id": "#11236",
+      "date": "Oct 31, 2025",
+      "service": "Move in Cleaning",
+      "status": "Cancelled",
+      "amount": "₦400.00"
+    },
+    {
+      "id": "#11237",
+      "date": "Oct 31, 2025",
+      "service": "Move in Cleaning",
+      "status": "Pending",
+      "amount": "₦400.00"
+    }
+  ]
+}
