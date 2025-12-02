@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import { useNavigate } from "react-router-dom";
 
-const Modal2 = () => {
+const Serviceselection = () => {
  const [selected, setSelected] = useState(null) 
  const redirect = useNavigate()
 
@@ -141,4 +141,4 @@ const Modal2 = () => {
   );
 };
 
-export default Modal2;
+export default Serviceselection;

@@ -11,10 +11,10 @@ import Footer from './components/Footer'
 import FAQs from './components/FAQs'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import SignUp from './pages/SignUp'
-import Modal1 from './pages/Modal1'
-import Modal4 from './pages/Modal4'
-import Modal2 from './pages/Modal2'
-import Modal3 from './pages/Modal3'
+import BookingPage from './pages/bookingpage'
+import Payment from './pages/Payment'
+import ServiceSelection from './pages/Serviceselection'
+import BookingSummary from './pages/Bookingsummary'
 import SignIn from './pages/Signin'
 import Appointments from './pages/Dashboard/Appointments'
 import Dashboard from './pages/Dashboard/Dashboard'
@@ -49,10 +49,10 @@ function App() {
         
         <Route path='/signup' element={<SignUp/>}/>
         <Route path='/signin' element={<SignIn/>}/>
-        <Route path='/booking' element={<Modal1/>}/>
-        <Route path='/modal2' element={<Modal2/>}/>
-        <Route path='/modal3' element={<Modal3/>}/>
-        <Route path='/modal4' element={<Modal4/>}/>
+        <Route path='/booking' element={<BookingPage/>}/>
+        <Route path='/modal2' element={<ServiceSelection/>}/>
+        <Route path='/modal3' element={<BookingSummary/>}/>
+        <Route path='/modal4' element={<Payment/>}/>
 
         <Route path='/dashboard' element={<Dashboard/>}/>
         <Route path='/appointments' element={<Appointments/>}/>

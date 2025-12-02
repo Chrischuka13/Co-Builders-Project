@@ -1,7 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
 
-const Modal3 = () => {
+const Bookingsummary = () => {
     const redirect = useNavigate()
 
     const handleClick = (e) =>{
@@ -64,4 +64,4 @@ const Modal3 = () => {
   );
 };
 
-export default Modal3;
+export default Bookingsummary;

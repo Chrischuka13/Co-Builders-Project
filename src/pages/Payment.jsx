@@ -3,7 +3,7 @@ import image from '../assets/paystack.png'
 import { useNavigate } from 'react-router-dom'
 
 
-const Modal4 = () => {
+const Payment = () => {
     const redirect = useNavigate()
   const [info,setInfo] = useState({
     cardnumber: "",
@@ -125,4 +125,4 @@ const Modal4 = () => {
   )
 }
 
-export default Modal4
+export default Payment

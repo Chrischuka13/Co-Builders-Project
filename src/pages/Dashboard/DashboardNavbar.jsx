@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Menu, Bell, Search, X } from "lucide-react";
 import emma from '../../assets/emma.jpg'
-import { useAuth } from "../../src/context/AuthContext";
-import { useDashboard } from "../../src/context/DashboardContext";// ✅ import
+import { useAuth } from "../../context/AuthContext";
+import { useDashboard } from "../../context/DashboardContext";// ✅ import
 
 const DashboardNavbar = ({ setMobileOpen }) => {
   const { user } = useAuth();

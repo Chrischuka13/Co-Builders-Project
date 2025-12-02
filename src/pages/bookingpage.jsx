@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 
 
-const Modal1 = () => {
+const Bookingpage = () => {
     const redirect = useNavigate()
     const [user, setUser] = useState({
     firstname: "",
@@ -182,4 +182,4 @@ const Modal1 = () => {
   )
 }
 
-export default Modal1
+export default Bookingpage
