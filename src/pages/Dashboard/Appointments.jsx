@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import emptyImage from "../../assets/empty.png";
 import { useNavigate } from "react-router-dom";
-import { useBooking } from "../../context/BookingContext";
-import { useDashboard } from "../../context/DashboardContext"; // ✅ Import the shared context
+import { useBooking } from "../../src/context/BookingContext";
+import { useDashboard } from "../../src/context/DashboardContext"; // ✅ Import the shared context
 
 const Appointments = () => {
   const navigate = useNavigate();
